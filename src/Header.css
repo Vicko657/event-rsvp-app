@@ -10,9 +10,9 @@ img.logo {
   padding: 20px 20px;
 }
 
-@media (max-width: 1000px) {
-  .full-header {
-    padding: 30px;
+@media (max-width: 600px) {
+  .header {
+    padding: 60px 25px;
   }
   img.logo {
     width: 800px !important;
