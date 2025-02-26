@@ -18,6 +18,8 @@
 
 .form-label {
   padding-top: 5px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
 }
 .form-control {
   border: 1px solid #ffffff;
@@ -31,7 +33,9 @@
 .form-select {
   border-radius: 0;
 }
-
+.row form {
+  padding-right: 0px !important;
+}
 .form-control:focus {
   outline: #3a6794 !important;
 }

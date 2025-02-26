@@ -6,6 +6,7 @@ export default function Info() {
     <div id="info" className="further-info d-flex row align-content-center ">
       <h1 className="text-center">The Finer Details</h1>
       <h3 className="text-center">Everything You Need to Know</h3>
+
       <h2 className="text-center">Dress Code</h2>
       <p className="text-center">
         Shades of blue, chic & classy! Whether it’s baby blue, navy, or sky,
@@ -21,6 +22,11 @@ export default function Info() {
       <p className="text-center">
         Capture the magic and share your moments using #MeetTheMalalus
       </p>
+
+      <h2 className="text-center">
+        This is an invite only - BRIDAL SHOWER <br />
+        no plus ones!
+      </h2>
     </div>
   );
 }
