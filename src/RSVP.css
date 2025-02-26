@@ -1,0 +1,46 @@
+.rsvp-form {
+  background-color: #167cac;
+  color: white;
+  padding: 60px;
+}
+.rsvp-form h1 {
+  color: #3a6794;
+}
+
+.rsvp-btn {
+  border-radius: 0;
+  padding: 10px 50px;
+  background: #ffffff;
+  border: none;
+  color: #3a6793;
+  letter-spacing: 2px;
+}
+
+.form-label {
+  padding-top: 5px;
+}
+.form-control {
+  border: 1px solid #ffffff;
+  font-size: 16px !important;
+  background: transparent !important;
+  font-family: "Darker Grotesque", serif;
+  font-weight: 400;
+  color: #ffffff !important;
+  border-radius: 0;
+}
+.form-select {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  outline: #3a6794 !important;
+}
+
+@media (max-width: 1000px) {
+  .rsvp-form {
+    padding: 60px 30px;
+  }
+  .form-label {
+    font-size: 14px;
+  }
+}

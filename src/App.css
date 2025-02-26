@@ -1,0 +1,70 @@
+.card {
+  background: transparent;
+  border: none;
+  border: none;
+  margin: 0 auto;
+}
+.left-column {
+  background: rgb(234 245 255);
+  padding: 60px;
+  background-image: url("imgs/BS-background_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img.logo {
+  display: block;
+  margin: 0 auto;
+  width: 57% !important;
+  padding: 20px 20px;
+}
+.sub-heading {
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.title-imgs {
+  padding: 60px 60px 30px 60px;
+}
+.left-column img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.right-column {
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  margin: 0 20px 0 20px;
+  padding: 5px 25px;
+}
+
+a {
+  display: block;
+  margin: 0 20px 0 20px;
+  padding: 5px 25px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .title-imgs {
+    padding: 65px 65px 40px 65px;
+  }
+  .left-column {
+    background-image: url("imgs/BS-mobile-bg_4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh !important;
+  }
+  img.logo {
+    width: 70% !important;
+    padding: 10px 20px;
+  }
+
+  .left-column img {
+    width: 90%;
+  }
+  .right-column {
+    overflow: visible !important;
+  }
+}

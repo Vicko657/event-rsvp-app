@@ -1,0 +1,13 @@
+.giftlist {
+  background: rgb(234 245 255);
+  padding: 60px;
+}
+.giftlist-btn {
+  background-color: #167cac;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  letter-spacing: 2px;
+}
+@media (max-width: 1000px) {
+}

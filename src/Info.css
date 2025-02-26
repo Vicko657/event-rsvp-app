@@ -1,0 +1,19 @@
+.further-info {
+  background: #ffffff;
+  padding: 60px 120px;
+}
+.further-info p {
+  font-size: 16px;
+}
+
+@media (max-width: 1000px) {
+  .further-info {
+    padding: 60px 60px;
+  }
+  .further-info h2 {
+    font-size: 16px;
+  }
+  .further-info p {
+    font-size: 16px;
+  }
+}
