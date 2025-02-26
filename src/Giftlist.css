@@ -9,5 +9,8 @@
   padding: 10px 50px;
   letter-spacing: 2px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
+  .giftlist {
+    padding: 60px 30px;
+  }
 }
