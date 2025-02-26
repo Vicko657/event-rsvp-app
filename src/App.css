@@ -7,7 +7,7 @@
 .left-column {
   background: rgb(234 245 255);
   padding: 60px;
-  background-image: url("imgs/BS-background_2.png");
+  background-image: url("imgs/bg_lg_img.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -51,7 +51,7 @@ a {
     padding: 65px 65px 40px 65px;
   }
   .left-column {
-    background-image: url("imgs/BS-mobile-bg_4.png");
+    background-image: url("imgs/bg_sm_img.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh !important;
