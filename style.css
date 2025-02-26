@@ -7,13 +7,17 @@ body {
   font-weight: 100;
   text-transform: uppercase;
 }
+@font-face {
+  font-family: "edwardianscriptitc";
+  src: url("/font/edwardianscriptitc.ttf");
+}
 
 h1 {
   font-size: 60px;
   color: #167cac;
   padding-bottom: 15px;
   line-height: 0.9;
-  font-family: Edwardian Script ITC;
+  font-family: "edwardianscriptitc";
   text-transform: capitalize;
 }
 h2 {
