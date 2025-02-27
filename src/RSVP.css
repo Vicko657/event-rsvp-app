@@ -56,6 +56,16 @@ p.fullname {
 .form-control:focus {
   outline: #3a6794 !important;
 }
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+  border-radius: 0;
+  padding: 10px 50px;
+  background: #ffffff;
+  border: none;
+  color: #167cac;
+  letter-spacing: 2px;
+}
 
 @media (max-width: 1000px) {
   .rsvp-form {

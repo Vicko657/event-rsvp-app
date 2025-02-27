@@ -62,6 +62,15 @@ export default function RSVP() {
         return;
       }
 
+      if (data.rsvp === "--Select--") {
+        setError("rsvp", {
+          type: "manual",
+          message: "Please select a valid RSVP option.",
+        });
+        setLoading(false);
+        return;
+      }
+
       const { error } = await supabase
         .from("Bridal_Rsvp")
         .insert([{ ...data, first_name: firstName, last_name: lastName }])
@@ -181,7 +190,7 @@ export default function RSVP() {
               <Controller
                 name="rsvp"
                 control={control}
-                defaultValue="YES"
+                defaultValue="--Select--"
                 rules={{ required: "Please confirm your attendance." }}
                 render={({ field }) => (
                   <select
@@ -191,6 +200,9 @@ export default function RSVP() {
                     } `}
                     aria-label=".form-select-md example"
                   >
+                    <option value="--Select--" disabled>
+                      Select Yes or No
+                    </option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                   </select>
