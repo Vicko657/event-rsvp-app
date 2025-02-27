@@ -4,7 +4,7 @@
   padding: 60px;
 }
 .rsvp-form h1 {
-  color: #3a6794;
+  color: #167cac;
 }
 
 .rsvp-btn {
@@ -12,8 +12,23 @@
   padding: 10px 50px;
   background: #ffffff;
   border: none;
-  color: #3a6793;
+  color: #167cac;
   letter-spacing: 2px;
+}
+.rsvp-btn:hover {
+  border-radius: 0;
+  padding: 10px 50px;
+  background: rgb(234 245 255);
+  border: none;
+  color: #167cac;
+  letter-spacing: 2px;
+}
+.rsvp-submitted h2 {
+  font-size: 20px;
+  letter-spacing: 1.6;
+}
+.rsvp-submitted p {
+  font-size: 16px;
 }
 
 .form-label {
