@@ -6,6 +6,9 @@
 .rsvp-form h1 {
   color: #167cac;
 }
+.rsvp-form {
+  font-size: 18px;
+}
 
 .rsvp-btn {
   border-radius: 0;
@@ -23,9 +26,8 @@
   color: #167cac;
   letter-spacing: 2px;
 }
-.rsvp-submitted h2 {
-  font-size: 20px;
-  letter-spacing: 1.6;
+p.fullname {
+  font-size: 30px !important;
 }
 .rsvp-submitted p {
   font-size: 16px;
@@ -59,7 +61,10 @@
   .rsvp-form {
     padding: 60px 30px;
   }
+  .rsvp-form h3 {
+    font-size: 16px;
+  }
   .form-label {
-    font-size: 14px;
+    font-size: 16px;
   }
 }

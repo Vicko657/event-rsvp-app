@@ -7,13 +7,14 @@ export default function Giftlist() {
       <h1 className="text-center">Giftlist</h1>
       <h3 className="text-center">
         Your presence is the best gift,
-        <br /> but if you would like to shower the <br />
-        bride with love...<a></a>
+        <br /> but if you would like to shower <br />
+        the bride with love...<a></a>
       </h3>
       <div className="all-buttons d-grid gap-2 d-flex justify-content-center">
         <a
           className="giftlist-btn"
           href="https://www.thingstogetme.com/1602857a45f64"
+          target="_blank"
         >
           SARAH'S WISHLIST
         </a>

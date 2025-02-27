@@ -3,14 +3,20 @@
   padding: 60px;
 }
 .giftlist-btn {
-  background-color: #167cac;
-  color: white;
-  border: none;
+  border: 1px solid #167cac;
+  color: #167cac;
   padding: 10px 50px;
   letter-spacing: 2px;
+}
+.giftlist-btn:hover {
+  background: #167cac;
+  color: white;
 }
 @media (max-width: 600px) {
   .giftlist {
     padding: 60px 25px;
+  }
+  .giftlist h3 {
+    font-size: 16px;
   }
 }

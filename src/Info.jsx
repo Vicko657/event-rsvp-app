@@ -9,8 +9,8 @@ export default function Info() {
 
       <h2 className="text-center">Dress Code</h2>
       <p className="text-center">
-        Shades of blue, chic & classy! Whether it’s baby blue, navy, or sky,
-        wear something blue to match the theme.
+        Shades of blue, chic & classy! <br /> Whether it’s baby blue, navy, or
+        sky, wear something blue to match the theme.
       </p>
       <h2 className="text-center">Parking</h2>
       <p className="text-center">
@@ -24,8 +24,7 @@ export default function Info() {
       </p>
 
       <h2 className="text-center">
-        This is an invite only - BRIDAL SHOWER <br />
-        no plus ones!
+        This is an invite only Bridal Shower! <br /> no plus ones!
       </h2>
     </div>
   );

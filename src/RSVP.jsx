@@ -13,11 +13,16 @@ export default function RSVP() {
   } = useForm();
   const [loading, setLoading] = useState(null);
   const [submitted, setSubmitted] = useState(null);
+  const [user, setUser] = useState(null);
 
   async function onSubmit(data) {
     setLoading(true);
     try {
-      const { error } = await supabase.from("Bridal_Rsvp").insert([data]);
+      const { error } = await supabase
+        .from("Bridal_Rsvp")
+        .insert([data])
+        .select("first_name, last_name")
+        .single();
 
       if (error) throw error;
 
@@ -27,19 +32,25 @@ export default function RSVP() {
       setError(error.message);
     }
     setLoading(false);
+    setUser(data);
   }
 
   return (
     <div id="rsvp" className="rsvp-form d-flex row align-content-center">
       {submitted ? (
         <div className="rsvp-submitted text-center">
-          <h2 className="text-light">
-            Thank You for <br />
-            Submitting your RSVP!
-          </h2>
-          <p className="mt-3 text-light">
-            WE ARE LOOKING FORWARD TO <br />
-            CELEBRATING WITH YOU
+          <h1 className="text-light m-0 p-0"> Thank You</h1>
+          <p className="fullname text-light pt-4 pb-2 ">
+            {user && (
+              <>
+                {user.first_name} {user.last_name}
+              </>
+            )}{" "}
+            <br />
+          </p>
+          <p className="mt-3 text-light mt-0">
+            We are looking forward to <br />
+            celebrarting with you
           </p>
           <button
             onClick={() => setSubmitted(false)}
@@ -53,11 +64,11 @@ export default function RSVP() {
           <h1 className="text-center text-light">Rsvp</h1>
           <h3 className="text-center text-light ">
             Fill out the form below
-            <br /> to confirm your attendance.
+            <br /> to confirm your attendance
           </h3>
-          <small className="text-center mt-2">
-            PLEASE CONFIRM BY THE 8th April.
-          </small>
+          <p className="small text-center text-light mt-2">
+            Please confirm by 8th April.
+          </p>
           <form
             className="row g-3"
             noValidate
@@ -72,7 +83,7 @@ export default function RSVP() {
                 {...register("first_name", { required: true })}
                 className={`form-control  ${
                   isSubmitted &&
-                  (errors.first_name ? "border-warning" : "border-green-500")
+                  (errors.first_name ? "border-warning" : "border-Success")
                 }`}
                 aria-label="First name"
               />
@@ -91,7 +102,7 @@ export default function RSVP() {
                 {...register("last_name", { required: true })}
                 className={`form-control ${
                   isSubmitted &&
-                  (errors.last_name ? "border-warning" : "border-green-500")
+                  (errors.last_name ? "border-warning" : "border-Success")
                 }`}
                 aria-label="Last name"
               />
@@ -113,12 +124,12 @@ export default function RSVP() {
                   <select
                     {...field}
                     className={`form-select form-select-md ${
-                      isSubmitted && errors.rsvp && "border-green-500"
+                      isSubmitted && errors.rsvp && "border-Success"
                     } `}
                     aria-label=".form-select-md example"
                   >
-                    <option value="YES">YES</option>
-                    <option value="NO">NO</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
                 )}
               />
@@ -130,7 +141,7 @@ export default function RSVP() {
             </div>
             <div className="col-12">
               <label for="validationCustom04" class="form-label">
-                DO YOU HAVE ANY DIETARY REQUIREMENTS?(Please State)
+                Do you have an dietary requirements?
               </label>
               <input
                 type="text"
@@ -148,7 +159,7 @@ export default function RSVP() {
                 {...register("message", { required: false })}
                 class="form-control"
                 id="exampleFormControlTextarea1"
-                rows="2"
+                rows="3"
                 aria-label="message"
               ></textarea>
             </div>
