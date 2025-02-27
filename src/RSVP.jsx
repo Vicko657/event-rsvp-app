@@ -152,7 +152,7 @@ export default function RSVP() {
             </div>
             <div className="col-12">
               <label for="validationCustom05" class="form-label">
-                Any special message for the bride?
+                Please leave a special message for the Bride
               </label>
 
               <textarea

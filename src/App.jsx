@@ -13,7 +13,7 @@ export default function App() {
             <img className="title-imgs" src="/imgs/theme_img.png" alt="img" />
             <div className="mt-lg-5">
               <h3 className="text-center sub-heading">
-                Please wear something blue & <br /> join us celebrating
+                Please wear something blue & <br /> join us in celebrating
               </h3>
               <img
                 className="logo d-lg-block"

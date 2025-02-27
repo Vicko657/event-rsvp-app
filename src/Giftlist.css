@@ -2,6 +2,9 @@
   background: rgb(234 245 255);
   padding: 60px;
 }
+.giftlist p {
+  font-size: 18px;
+}
 .giftlist-btn {
   border: 1px solid #167cac;
   color: #167cac;

@@ -5,11 +5,11 @@ export default function Giftlist() {
   return (
     <div id="giftlist" className="giftlist d-flex row align-content-center ">
       <h1 className="text-center">Giftlist</h1>
-      <h3 className="text-center">
-        Your presence is the best gift,
-        <br /> but if you would like to shower <br />
-        the bride with love...<a></a>
-      </h3>
+      <p className="text-center">
+        We'd love if you were able to bring a gift, <br /> as we'll have a
+        dedicated gift table for the bride. <br />
+        You'll find plenty of the options below.
+      </p>
       <div className="all-buttons d-grid gap-2 d-flex justify-content-center">
         <a
           className="giftlist-btn"
