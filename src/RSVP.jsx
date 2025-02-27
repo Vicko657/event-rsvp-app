@@ -141,7 +141,7 @@ export default function RSVP() {
             </div>
             <div className="col-12">
               <label for="validationCustom04" class="form-label">
-                Do you have an dietary requirements?
+                Do you have any dietary requirements?
               </label>
               <input
                 type="text"
