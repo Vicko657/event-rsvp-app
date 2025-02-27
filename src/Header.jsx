@@ -7,6 +7,7 @@ export default function Header() {
       id="invite"
       className="header d-flex row align-content-center vh-100"
     >
+      <h1 className="text-center ">You are invited</h1>
       <p className="date text-center">Saturday 17th MAY 2025</p>
       <p className="time text-center">1pm - 5:30pm</p>
       <p className="address text-center m-0">
