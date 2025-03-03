@@ -15,7 +15,7 @@ export default function Info() {
       <h2 className="text-center">Parking</h2>
       <p className="text-center">
         There is parking at the venue. <br />
-        It is available at a First Come First Serve basis
+        It is available on a first come first serve basis
       </p>
 
       <h2 className="text-center">Picture Perfect</h2>

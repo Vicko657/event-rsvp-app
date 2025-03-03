@@ -9,7 +9,7 @@ export default function Giftlist() {
         We would love if you were able to bring a gift, <br /> as we will have a
         dedicated gift table for the bride. <br />
         <br />
-        You will find plenty of the options below:
+        You will find plenty of options below:
       </p>
       <div className="all-buttons d-grid gap-2 d-flex justify-content-center mt-3">
         <a

@@ -110,7 +110,7 @@ export default function RSVP() {
           </p>
           <p className="mt-3 text-light mt-0">
             We are looking forward to <br />
-            celebrarting with you
+            celebrating with you
           </p>
           <button
             onClick={() => setSubmitted(false)}
