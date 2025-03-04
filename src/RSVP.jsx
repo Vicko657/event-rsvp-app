@@ -127,7 +127,7 @@ export default function RSVP() {
             <br /> to confirm your attendance
           </h3>
           <p className="small text-center text-light mt-2">
-            Please confirm by Sunday 6th April.
+            Please confirm by Sunday 30th March.
           </p>
           <form
             className="row g-3"
