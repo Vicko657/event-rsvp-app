@@ -1,8 +1,19 @@
-# React + Vite
+# Bridal Shower RSVP System 💐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Guest RSVP management system built for a real event, handling form submissions and guest data storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Live Application
+- Frontend Only: https://bs-event-rsvp.netlify.app/
+- Supabase: Backend decommissioned post-event.
+  
+---
+
+## 🛠️ Tech Stack
+
+**Languages**: ![HTML5](https://img.shields.io/badge/HTM5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white) ![Javascript](https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+**Frameworks**: ![React](https://img.shields.io/badge/React-007396?style=flat-square&logo=react&logoColor=#61DAFB)
+
+**Deployment**: ![Netlify](https://img.shields.io/badge/Netlify-0B0D0E?style=flat-square&logo=netlify&logoColor=#00C7B7)
