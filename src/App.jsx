@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className="container-fluid rsvp-app p-0 m-0">
       <div className=" row full-header p-0 m-0 ">
-        <div className="left-column p-0 m-0 col-lg-6 d-flex flex-column d-lg-flex position-lg-fixed position-none vh-100  ">
+        <div className="left-column p-0 m-0 col-lg-6 d-flex flex-column position-lg-fixed position-none vh-100">
           <div className="align-content-center vh-100">
             <img className="title-imgs" src="/imgs/theme_img.png" alt="img" />
             <div className="mt-lg-5">
@@ -24,7 +24,7 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="right-column d-flex col-lg-6 offset-lg-6 d-flex flex-column overflow-auto vh-100">
+        <div className="right-column d-flex col-lg-6 offset-lg-6 flex-column overflow-auto vh-100">
           <Header />
           <RSVP />
           <Info />
