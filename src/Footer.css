@@ -1,0 +1,19 @@
+.signature {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #167cac;
+}
+
+.signature a {
+  color: #167cac;
+}
+
+.signature a:hover {
+  color: #0e2337;
+}
+
+@media (max-width: 525px) {
+  .signature {
+    font-size: 12px;
+  }
+}
