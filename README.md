@@ -12,7 +12,7 @@ A responsive RSVP application built for a private bridal shower, allowing guests
 
 The event required a simplier way for guests to confirm their attendance and details without the client having to gather responses manually from a list of `60 invitees`. The client needed the guests to have the ability to submit their messages for the bride and view specific event details which they could frequently refer to.
 
-## 📱 The Solution
+## 🎊 The Solution
 
 I built a mobile-friendly RSVP application that allowed guests to submit their details online from their desktops and phones.
 
@@ -40,7 +40,7 @@ Further down the two column page, there was additional information (location, ti
 
 ![Client Website](/assets/additional_event_info.png)
 
-## 📋 Features
+## 🌇 Features
 
 - **RSVP Submission:** `60 guests` could confirm whether they would attend the event.
 - **Guest Details:** Collected information required for the event planning, including dietary requirements and special messages.
@@ -73,7 +73,7 @@ Further down the two column page, there was additional information (location, ti
   </tr>
  </table>
 
-## 🪑 Tech Stack
+## 🪩 Tech Stack
 
 - **Frontend:** ![HTML5](https://img.shields.io/badge/HTM5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white) ![Javascript](https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-007396?style=flat-square&logo=react&logoColor=#61DAFB)
 - **Backend/Database:** ![Supabase](https://img.shields.io/badge/Supabase-0B0D0E?style=flat-square&logo=supabase&logoColor=#3FCF8E) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B0D0E?style=flat-square&logo=postgreSQL&logoColor=#3FCF8E)
