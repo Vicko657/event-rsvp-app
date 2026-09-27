@@ -54,15 +54,22 @@ Further down the two column page, there was additional information (location, ti
 <table>
   <tr>
     <td>Empty Inputs (Disabled Button)</td>
-     <td>Full Name Required</td>
+    <td>Full Name Required</td>
     <td>RSVP Required</td>
+  </tr>
+  <tr>
+    <td><img src="assets/empty_form.png" width=350></td>
+   <td><img src="assets/full_name_required.png" width=350 ></td>
+    <td><img src="assets/valid_rsvp_required.png" width=350 ></td>
+  </tr>
+ </table>
+
+ <table>
+  <tr>
     <td>Full Name Duplication (Mobile View)</td>
   </tr>
   <tr>
-    <td><img src="assets/empty_form.png" width=300></td>
-   <td><img src="assets/full_name_required.png" width=300 ></td>
-    <td><img src="assets/valid_rsvp_required.png" width=300 ></td>
-     <td><img src="assets/full_name_duplication_mobile.png" width=150></td>
+     <td><img src="assets/full_name_duplication_mobile.png" width=250></td>
   </tr>
  </table>
 
