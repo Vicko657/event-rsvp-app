@@ -13,11 +13,7 @@ export default function Giftlist() {
         You will find plenty of options below:
       </p>
       <div className="all-buttons d-grid gap-2 d-flex justify-content-center mt-3">
-        <a
-          className="giftlist-btn"
-          href="https://www.thingstogetme.com/1602857a45f64"
-          target="_blank"
-        >
+        <a className="giftlist-btn" href="#" target="_blank">
           SARAH'S WISHLIST
         </a>
       </div>
